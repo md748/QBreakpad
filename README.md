@@ -4,7 +4,9 @@ based on google-breakpad. added WindowsDllInterceptor, can catch all exception
 1. pro
 
     LIBS += -L. -lQBreakpad4
+    
     DEFINES += QBREAKPAD_LINRARY
+    
     INCLUDEPATH += ../QBreakpad
 
 
